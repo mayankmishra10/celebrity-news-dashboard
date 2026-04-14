@@ -9,10 +9,3 @@
 
 ## 🧱 Architecture
 Crawler → NLP → FastAPI → React
-
-
-
-## 📸 Screenshots
-![alt text](<Screenshot 2026-04-12 at 4.22.23 AM-1.png>)
-![alt text](<Screenshot 2026-04-12 at 4.22.23 AM.png>)
-![alt text](<Screenshot 2026-04-12 at 4.22.23 AM-2.png>)
