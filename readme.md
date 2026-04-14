@@ -10,15 +10,7 @@
 ## 🧱 Architecture
 Crawler → NLP → FastAPI → React
 
-## ▶️ Run Instructions
 
-### Backend
-cd class_complete
-uvicorn api:app --reload
-
-### Frontend
-cd dashboard
-npm start
 
 ## 📸 Screenshots
 ![alt text](<Screenshot 2026-04-12 at 4.22.23 AM-1.png>)

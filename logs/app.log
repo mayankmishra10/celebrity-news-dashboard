@@ -1,0 +1,1453 @@
+2026-04-14 16:09:43,226 - INFO - Pipeline started
+2026-04-14 16:09:43,230 - INFO - Crawled: 0
+2026-04-14 16:09:43,231 - INFO - After dedup: 0
+2026-04-14 16:09:43,232 - INFO - Pipeline completed
+2026-04-14 16:10:43,351 - INFO - Pipeline started
+2026-04-14 16:10:43,352 - INFO - Crawled: 0
+2026-04-14 16:10:43,352 - INFO - After dedup: 0
+2026-04-14 16:10:43,352 - INFO - Pipeline completed
+2026-04-14 16:13:34,762 - INFO - Pipeline started
+2026-04-14 16:13:34,953 - WARNING - Retry 1 for https://www.npr.org/sections/news/ | Error: Cannot connect to host www.npr.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:34,985 - WARNING - Retry 1 for https://www.cnn.com/world | Error: Cannot connect to host www.cnn.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:34,996 - WARNING - Retry 2 for https://www.npr.org/sections/news/ | Error: Cannot connect to host www.npr.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,024 - WARNING - Retry 1 for https://www.reuters.com/news/world | Error: Cannot connect to host www.reuters.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')]
+2026-04-14 16:13:35,057 - WARNING - Retry 3 for https://www.npr.org/sections/news/ | Error: Cannot connect to host www.npr.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,063 - ERROR - Failed after retries: https://www.npr.org/sections/news/
+2026-04-14 16:13:35,101 - WARNING - Retry 2 for https://www.cnn.com/world | Error: Cannot connect to host www.cnn.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,126 - WARNING - Retry 1 for https://www.aljazeera.com/news/ | Error: Cannot connect to host www.aljazeera.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,141 - WARNING - Retry 2 for https://www.reuters.com/news/world | Error: Cannot connect to host www.reuters.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')]
+2026-04-14 16:13:35,160 - WARNING - Retry 2 for https://www.aljazeera.com/news/ | Error: Cannot connect to host www.aljazeera.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,193 - WARNING - Retry 3 for https://www.aljazeera.com/news/ | Error: Cannot connect to host www.aljazeera.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,193 - ERROR - Failed after retries: https://www.aljazeera.com/news/
+2026-04-14 16:13:35,205 - WARNING - Retry 3 for https://www.cnn.com/world | Error: Cannot connect to host www.cnn.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,205 - ERROR - Failed after retries: https://www.cnn.com/world
+2026-04-14 16:13:35,225 - WARNING - Retry 3 for https://www.reuters.com/news/world | Error: Cannot connect to host www.reuters.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')]
+2026-04-14 16:13:35,225 - ERROR - Failed after retries: https://www.reuters.com/news/world
+2026-04-14 16:13:35,287 - WARNING - Retry 1 for https://www.theguardian.com/world | Error: Cannot connect to host www.theguardian.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,456 - WARNING - Retry 2 for https://www.theguardian.com/world | Error: Cannot connect to host www.theguardian.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,548 - WARNING - Retry 3 for https://www.theguardian.com/world | Error: Cannot connect to host www.theguardian.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,549 - ERROR - Failed after retries: https://www.theguardian.com/world
+2026-04-14 16:13:35,571 - WARNING - Retry 1 for https://www.nytimes.com/section/world | Error: Cannot connect to host www.nytimes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,591 - WARNING - Retry 1 for https://www.cbsnews.com/world/ | Error: Cannot connect to host www.cbsnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,603 - WARNING - Retry 1 for https://www.nbcnews.com/world | Error: Cannot connect to host www.nbcnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,622 - WARNING - Retry 2 for https://www.nbcnews.com/world | Error: Cannot connect to host www.nbcnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,642 - WARNING - Retry 3 for https://www.nbcnews.com/world | Error: Cannot connect to host www.nbcnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,643 - ERROR - Failed after retries: https://www.nbcnews.com/world
+2026-04-14 16:13:35,675 - WARNING - Retry 1 for https://www.abc.net.au/news/world/ | Error: Cannot connect to host www.abc.net.au:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,692 - WARNING - Retry 2 for https://www.abc.net.au/news/world/ | Error: Cannot connect to host www.abc.net.au:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,708 - WARNING - Retry 3 for https://www.abc.net.au/news/world/ | Error: Cannot connect to host www.abc.net.au:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,709 - ERROR - Failed after retries: https://www.abc.net.au/news/world/
+2026-04-14 16:13:35,820 - WARNING - Retry 1 for https://www.bbc.com/news | Error: Cannot connect to host www.bbc.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,834 - WARNING - Retry 1 for https://www.dw.com/en/top-stories/world/s-1429 | Error: Cannot connect to host www.dw.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,854 - WARNING - Retry 2 for https://www.dw.com/en/top-stories/world/s-1429 | Error: Cannot connect to host www.dw.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,962 - WARNING - Retry 3 for https://www.dw.com/en/top-stories/world/s-1429 | Error: Cannot connect to host www.dw.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:35,963 - ERROR - Failed after retries: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:13:36,039 - WARNING - Retry 1 for https://www.france24.com/en/ | Error: Cannot connect to host www.france24.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,098 - WARNING - Retry 2 for https://www.france24.com/en/ | Error: Cannot connect to host www.france24.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,128 - WARNING - Retry 3 for https://www.france24.com/en/ | Error: Cannot connect to host www.france24.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,128 - ERROR - Failed after retries: https://www.france24.com/en/
+2026-04-14 16:13:36,132 - WARNING - Retry 1 for https://www.foxnews.com/world | Error: Cannot connect to host www.foxnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,504 - WARNING - Retry 1 for https://www.sciencenews.org/ | Error: Cannot connect to host www.sciencenews.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,547 - WARNING - Retry 2 for https://www.sciencenews.org/ | Error: Cannot connect to host www.sciencenews.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,551 - WARNING - Retry 2 for https://www.nytimes.com/section/world | Error: Cannot connect to host www.nytimes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,588 - WARNING - Retry 3 for https://www.sciencenews.org/ | Error: Cannot connect to host www.sciencenews.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,588 - ERROR - Failed after retries: https://www.sciencenews.org/
+2026-04-14 16:13:36,646 - WARNING - Retry 2 for https://www.bbc.com/news | Error: Cannot connect to host www.bbc.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:36,761 - WARNING - Retry 1 for https://www.nature.com/news | Error: Cannot connect to host www.nature.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,014 - WARNING - Retry 2 for https://www.nature.com/news | Error: Cannot connect to host www.nature.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,085 - WARNING - Retry 2 for https://www.foxnews.com/world | Error: Cannot connect to host www.foxnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,102 - WARNING - Retry 3 for https://www.nature.com/news | Error: Cannot connect to host www.nature.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,102 - ERROR - Failed after retries: https://www.nature.com/news
+2026-04-14 16:13:37,228 - WARNING - Retry 1 for https://www.nationalgeographic.com/latest-stories | Error: Cannot connect to host www.nationalgeographic.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,335 - WARNING - Retry 2 for https://www.nationalgeographic.com/latest-stories | Error: Cannot connect to host www.nationalgeographic.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,379 - WARNING - Retry 3 for https://www.nytimes.com/section/world | Error: Cannot connect to host www.nytimes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,379 - ERROR - Failed after retries: https://www.nytimes.com/section/world
+2026-04-14 16:13:37,428 - WARNING - Retry 3 for https://www.nationalgeographic.com/latest-stories | Error: Cannot connect to host www.nationalgeographic.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,428 - ERROR - Failed after retries: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:13:37,526 - WARNING - Retry 3 for https://www.bbc.com/news | Error: Cannot connect to host www.bbc.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,526 - ERROR - Failed after retries: https://www.bbc.com/news
+2026-04-14 16:13:37,559 - WARNING - Retry 1 for https://www.technologyreview.com/ | Error: Cannot connect to host www.technologyreview.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,574 - WARNING - Retry 1 for https://www.wired.com/ | Error: Cannot connect to host www.wired.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,624 - WARNING - Retry 2 for https://www.wired.com/ | Error: Cannot connect to host www.wired.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,630 - WARNING - Retry 2 for https://www.technologyreview.com/ | Error: Cannot connect to host www.technologyreview.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,677 - WARNING - Retry 3 for https://www.wired.com/ | Error: Cannot connect to host www.wired.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,677 - ERROR - Failed after retries: https://www.wired.com/
+2026-04-14 16:13:37,716 - WARNING - Retry 3 for https://www.technologyreview.com/ | Error: Cannot connect to host www.technologyreview.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:37,717 - ERROR - Failed after retries: https://www.technologyreview.com/
+2026-04-14 16:13:37,846 - WARNING - Retry 1 for https://www.theverge.com/ | Error: Cannot connect to host www.theverge.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,088 - WARNING - Retry 1 for https://www.techcrunch.com/ | Error: Cannot connect to host www.techcrunch.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,096 - WARNING - Retry 2 for https://www.theverge.com/ | Error: Cannot connect to host www.theverge.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,114 - WARNING - Retry 1 for https://www.engadget.com/ | Error: Cannot connect to host www.engadget.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,164 - WARNING - Retry 2 for https://www.techcrunch.com/ | Error: Cannot connect to host www.techcrunch.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,177 - WARNING - Retry 3 for https://www.theverge.com/ | Error: Cannot connect to host www.theverge.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,178 - ERROR - Failed after retries: https://www.theverge.com/
+2026-04-14 16:13:38,240 - WARNING - Retry 3 for https://www.techcrunch.com/ | Error: Cannot connect to host www.techcrunch.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,240 - ERROR - Failed after retries: https://www.techcrunch.com/
+2026-04-14 16:13:38,400 - WARNING - Retry 1 for https://www.bloomberg.com/ | Error: Cannot connect to host www.bloomberg.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,438 - WARNING - Retry 2 for https://www.cbsnews.com/world/ | Error: Cannot connect to host www.cbsnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,453 - WARNING - Retry 2 for https://www.engadget.com/ | Error: Cannot connect to host www.engadget.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,465 - WARNING - Retry 2 for https://www.bloomberg.com/ | Error: Cannot connect to host www.bloomberg.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,629 - WARNING - Retry 3 for https://www.bloomberg.com/ | Error: Cannot connect to host www.bloomberg.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,629 - ERROR - Failed after retries: https://www.bloomberg.com/
+2026-04-14 16:13:38,681 - WARNING - Retry 1 for https://www.economist.com/ | Error: Cannot connect to host www.economist.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,730 - WARNING - Retry 2 for https://www.economist.com/ | Error: Cannot connect to host www.economist.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,762 - WARNING - Retry 3 for https://www.economist.com/ | Error: Cannot connect to host www.economist.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,762 - ERROR - Failed after retries: https://www.economist.com/
+2026-04-14 16:13:38,836 - WARNING - Retry 3 for https://www.engadget.com/ | Error: Cannot connect to host www.engadget.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,836 - ERROR - Failed after retries: https://www.engadget.com/
+2026-04-14 16:13:38,960 - WARNING - Retry 3 for https://www.foxnews.com/world | Error: Cannot connect to host www.foxnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,961 - ERROR - Failed after retries: https://www.foxnews.com/world
+2026-04-14 16:13:38,966 - WARNING - Retry 3 for https://www.cbsnews.com/world/ | Error: Cannot connect to host www.cbsnews.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:38,966 - ERROR - Failed after retries: https://www.cbsnews.com/world/
+2026-04-14 16:13:39,129 - WARNING - Retry 1 for https://www.wsj.com/news/world | Error: Cannot connect to host www.wsj.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,141 - WARNING - Retry 1 for https://www.usatoday.com/news/world/ | Error: Cannot connect to host www.usatoday.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,165 - WARNING - Retry 1 for https://www.latimes.com/world-nation | Error: Cannot connect to host www.latimes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,195 - WARNING - Retry 2 for https://www.wsj.com/news/world | Error: Cannot connect to host www.wsj.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,210 - WARNING - Retry 2 for https://www.usatoday.com/news/world/ | Error: Cannot connect to host www.usatoday.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,228 - WARNING - Retry 2 for https://www.latimes.com/world-nation | Error: Cannot connect to host www.latimes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,261 - WARNING - Retry 3 for https://www.wsj.com/news/world | Error: Cannot connect to host www.wsj.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,261 - ERROR - Failed after retries: https://www.wsj.com/news/world
+2026-04-14 16:13:39,271 - WARNING - Retry 3 for https://www.usatoday.com/news/world/ | Error: Cannot connect to host www.usatoday.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,271 - ERROR - Failed after retries: https://www.usatoday.com/news/world/
+2026-04-14 16:13:39,294 - WARNING - Retry 3 for https://www.latimes.com/world-nation | Error: Cannot connect to host www.latimes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,295 - ERROR - Failed after retries: https://www.latimes.com/world-nation
+2026-04-14 16:13:39,305 - WARNING - Retry 1 for https://www.cnet.com/news/ | Error: Cannot connect to host www.cnet.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,339 - WARNING - Retry 1 for https://www.vox.com/world | Error: Cannot connect to host www.vox.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,342 - WARNING - Retry 1 for https://www.politico.com/world-news | Error: Cannot connect to host www.politico.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,382 - WARNING - Retry 1 for https://www.huffpost.com/news/world-news | Error: Cannot connect to host www.huffpost.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,424 - WARNING - Retry 2 for https://www.vox.com/world | Error: Cannot connect to host www.vox.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,469 - WARNING - Retry 2 for https://www.huffpost.com/news/world-news | Error: Cannot connect to host www.huffpost.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,514 - WARNING - Retry 3 for https://www.vox.com/world | Error: Cannot connect to host www.vox.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,515 - ERROR - Failed after retries: https://www.vox.com/world
+2026-04-14 16:13:39,632 - WARNING - Retry 2 for https://www.politico.com/world-news | Error: Cannot connect to host www.politico.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,635 - WARNING - Retry 3 for https://www.huffpost.com/news/world-news | Error: Cannot connect to host www.huffpost.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,635 - ERROR - Failed after retries: https://www.huffpost.com/news/world-news
+2026-04-14 16:13:39,675 - WARNING - Retry 3 for https://www.politico.com/world-news | Error: Cannot connect to host www.politico.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,675 - ERROR - Failed after retries: https://www.politico.com/world-news
+2026-04-14 16:13:39,697 - WARNING - Retry 1 for https://www.forbes.com/ | Error: Cannot connect to host www.forbes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,753 - WARNING - Retry 1 for https://www.scientificamerican.com/ | Error: Cannot connect to host www.scientificamerican.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,818 - WARNING - Retry 2 for https://www.scientificamerican.com/ | Error: Cannot connect to host www.scientificamerican.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,897 - WARNING - Retry 3 for https://www.scientificamerican.com/ | Error: Cannot connect to host www.scientificamerican.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:39,898 - ERROR - Failed after retries: https://www.scientificamerican.com/
+2026-04-14 16:13:40,012 - WARNING - Retry 1 for https://www.smithsonianmag.com/ | Error: Cannot connect to host www.smithsonianmag.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,171 - WARNING - Retry 1 for https://www.livescience.com/news | Error: Cannot connect to host www.livescience.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,244 - WARNING - Retry 2 for https://www.livescience.com/news | Error: Cannot connect to host www.livescience.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,301 - WARNING - Retry 2 for https://www.smithsonianmag.com/ | Error: Cannot connect to host www.smithsonianmag.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,337 - WARNING - Retry 3 for https://www.livescience.com/news | Error: Cannot connect to host www.livescience.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,338 - ERROR - Failed after retries: https://www.livescience.com/news
+2026-04-14 16:13:40,341 - WARNING - Retry 2 for https://www.cnet.com/news/ | Error: Cannot connect to host www.cnet.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,478 - WARNING - Retry 1 for https://www.time.com/section/world | Error: Cannot connect to host www.time.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,573 - WARNING - Retry 3 for https://www.smithsonianmag.com/ | Error: Cannot connect to host www.smithsonianmag.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,573 - ERROR - Failed after retries: https://www.smithsonianmag.com/
+2026-04-14 16:13:40,669 - WARNING - Retry 2 for https://www.forbes.com/ | Error: Cannot connect to host www.forbes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,741 - WARNING - Retry 1 for https://www.nasa.gov/news | Error: Cannot connect to host www.nasa.gov:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,804 - WARNING - Retry 2 for https://www.nasa.gov/news | Error: Cannot connect to host www.nasa.gov:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,873 - WARNING - Retry 3 for https://www.nasa.gov/news | Error: Cannot connect to host www.nasa.gov:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:40,873 - ERROR - Failed after retries: https://www.nasa.gov/news
+2026-04-14 16:13:41,383 - WARNING - Retry 1 for https://www.brookings.edu/blog/ | Error: Cannot connect to host www.brookings.edu:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,434 - WARNING - Retry 2 for https://www.time.com/section/world | Error: Cannot connect to host www.time.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,438 - WARNING - Retry 3 for https://www.cnet.com/news/ | Error: Cannot connect to host www.cnet.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,438 - ERROR - Failed after retries: https://www.cnet.com/news/
+2026-04-14 16:13:41,510 - WARNING - Retry 3 for https://www.forbes.com/ | Error: Cannot connect to host www.forbes.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,510 - ERROR - Failed after retries: https://www.forbes.com/
+2026-04-14 16:13:41,551 - WARNING - Retry 1 for https://www.pewresearch.org/ | Error: Cannot connect to host www.pewresearch.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,622 - WARNING - Retry 2 for https://www.pewresearch.org/ | Error: Cannot connect to host www.pewresearch.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,712 - WARNING - Retry 2 for https://www.brookings.edu/blog/ | Error: Cannot connect to host www.brookings.edu:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,748 - WARNING - Retry 1 for https://www.space.com/news | Error: Cannot connect to host www.space.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,796 - WARNING - Retry 3 for https://www.pewresearch.org/ | Error: Cannot connect to host www.pewresearch.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:41,797 - ERROR - Failed after retries: https://www.pewresearch.org/
+2026-04-14 16:13:42,110 - WARNING - Retry 3 for https://www.brookings.edu/blog/ | Error: Cannot connect to host www.brookings.edu:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:42,110 - ERROR - Failed after retries: https://www.brookings.edu/blog/
+2026-04-14 16:13:42,255 - WARNING - Retry 3 for https://www.time.com/section/world | Error: Cannot connect to host www.time.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:42,255 - ERROR - Failed after retries: https://www.time.com/section/world
+2026-04-14 16:13:43,649 - WARNING - Retry 2 for https://www.space.com/news | Error: Cannot connect to host www.space.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:44,366 - WARNING - Retry 3 for https://www.space.com/news | Error: Cannot connect to host www.space.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2026-04-14 16:13:44,367 - ERROR - Failed after retries: https://www.space.com/news
+2026-04-14 16:13:44,367 - INFO - Crawled: 0
+2026-04-14 16:13:44,368 - INFO - After dedup: 0
+2026-04-14 16:13:44,369 - INFO - Pipeline completed
+2026-04-14 16:15:08,758 - INFO - Pipeline started
+2026-04-14 16:15:08,894 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:15:08,975 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:15:09,387 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:15:09,396 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:15:09,489 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:15:09,641 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:15:09,996 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:15:10,190 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:15:10,646 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:15:10,700 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:15:10,867 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:15:11,779 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:15:11,942 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:15:12,082 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:15:12,433 - INFO - Success: https://www.wired.com/
+2026-04-14 16:15:12,528 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:15:12,843 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:15:13,153 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:15:13,181 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:15:13,223 - INFO - Success: https://www.economist.com/
+2026-04-14 16:15:13,342 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:15:13,470 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:15:13,526 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:15:13,557 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:15:13,766 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:15:13,823 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:15:13,858 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:15:13,892 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:15:14,404 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:15:14,832 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:15:15,041 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:15:15,448 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:15:15,800 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:15:16,483 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:15:16,738 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:15:17,886 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:15:18,409 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:15:19,710 - WARNING - Retry 1 for https://www.cbsnews.com/world/ | Error: 
+2026-04-14 16:15:22,960 - INFO - Success: https://www.space.com/news
+2026-04-14 16:15:30,708 - WARNING - Retry 2 for https://www.cbsnews.com/world/ | Error: 
+2026-04-14 16:15:35,147 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:15:35,154 - INFO - Crawled: 39
+2026-04-14 16:15:35,514 - INFO - After dedup: 39
+2026-04-14 16:18:45,187 - INFO - Pipeline started
+2026-04-14 16:18:45,427 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:18:45,508 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:18:45,631 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:18:45,817 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:18:45,826 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:18:46,110 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:18:46,208 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:18:46,421 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:18:46,518 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:18:46,658 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:18:46,860 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:18:46,867 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:18:46,982 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:18:47,093 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:18:47,398 - INFO - Success: https://www.wired.com/
+2026-04-14 16:18:47,491 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:18:47,501 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:18:48,527 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:18:48,639 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:18:48,693 - INFO - Success: https://www.economist.com/
+2026-04-14 16:18:48,808 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:18:48,851 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:18:48,977 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:18:48,994 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:18:49,040 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:18:49,041 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:18:49,077 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:18:49,088 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:18:49,103 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:18:49,186 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:18:49,259 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:18:49,496 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:18:49,716 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:18:49,718 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:18:49,911 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:18:50,397 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:18:51,055 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:18:56,476 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:18:59,706 - WARNING - Retry 1 for https://www.space.com/news | Error: 
+2026-04-14 16:19:10,707 - WARNING - Retry 2 for https://www.space.com/news | Error: 
+2026-04-14 16:19:18,150 - INFO - Success: https://www.space.com/news
+2026-04-14 16:19:18,152 - INFO - Crawled: 39
+2026-04-14 16:19:18,509 - INFO - After dedup: 39
+2026-04-14 16:25:21,883 - INFO - Pipeline started
+2026-04-14 16:25:22,050 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:25:22,210 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:25:22,362 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:25:22,364 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:25:22,479 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:25:22,583 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:25:22,782 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:25:22,867 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:25:23,000 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:25:23,315 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:25:23,415 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:25:23,419 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:25:23,829 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:25:24,044 - INFO - Success: https://www.wired.com/
+2026-04-14 16:25:24,187 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:25:24,351 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:25:24,493 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:25:24,805 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:25:24,891 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:25:24,940 - INFO - Success: https://www.economist.com/
+2026-04-14 16:25:25,166 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:25:25,401 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:25:25,416 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:25:25,467 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:25:25,720 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:25:25,851 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:25:25,861 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:25:25,897 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:25:25,929 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:25:26,036 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:25:26,106 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:25:26,184 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:25:26,397 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:25:26,472 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:25:26,586 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:25:26,675 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:25:27,423 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:25:27,669 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:25:29,041 - INFO - Success: https://www.space.com/news
+2026-04-14 16:25:29,050 - INFO - Crawled: 39
+2026-04-14 16:25:29,404 - INFO - After dedup: 39
+2026-04-14 16:30:59,997 - INFO - Pipeline started
+2026-04-14 16:31:00,219 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:31:00,274 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:31:00,383 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:31:00,436 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:31:00,442 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:31:00,519 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:31:00,885 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:31:01,081 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:31:01,418 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:31:01,433 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:31:01,758 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:31:01,765 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:31:02,203 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:31:02,480 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:31:02,495 - INFO - Success: https://www.wired.com/
+2026-04-14 16:31:02,550 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:31:03,031 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:31:03,099 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:31:03,374 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:31:03,520 - INFO - Success: https://www.economist.com/
+2026-04-14 16:31:03,917 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:31:04,083 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:31:04,173 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:31:04,226 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:31:04,240 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:31:04,281 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:31:04,295 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:31:04,319 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:31:04,419 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:31:04,449 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:31:04,614 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:31:04,899 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:31:04,928 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:31:05,181 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:31:05,469 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:31:05,762 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:31:05,786 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:31:08,114 - INFO - Success: https://www.space.com/news
+2026-04-14 16:31:13,704 - WARNING - Retry 1 for https://www.cnet.com/news/ | Error: 
+2026-04-14 16:31:23,450 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:31:23,462 - INFO - Crawled: 39
+2026-04-14 16:31:23,800 - INFO - After dedup: 39
+2026-04-14 16:43:15,559 - INFO - Pipeline started
+2026-04-14 16:43:15,774 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:43:15,957 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:43:16,068 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:43:16,300 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:43:16,301 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:43:16,712 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:43:16,762 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:43:16,868 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:43:17,007 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:43:17,117 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:43:17,349 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:43:17,502 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:43:17,716 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:43:18,090 - INFO - Success: https://www.wired.com/
+2026-04-14 16:43:18,094 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:43:18,183 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:43:18,675 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:43:19,048 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:43:19,440 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:43:19,442 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:43:19,591 - INFO - Success: https://www.economist.com/
+2026-04-14 16:43:19,703 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:43:19,770 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:43:19,796 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:43:20,125 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:43:20,159 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:43:20,183 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:43:20,221 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:43:20,390 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:43:20,627 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:43:20,720 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:43:20,810 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:43:21,021 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:43:21,536 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:43:21,564 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:43:21,666 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:43:21,862 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:43:22,962 - INFO - Success: https://www.space.com/news
+2026-04-14 16:43:24,866 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:43:24,878 - INFO - Crawled: 39
+2026-04-14 16:43:25,186 - INFO - After dedup: 39
+2026-04-14 16:44:31,615 - INFO - Pipeline started
+2026-04-14 16:44:31,792 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:44:31,794 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:44:31,946 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:44:31,969 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:44:32,180 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:44:32,199 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:44:32,236 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:44:32,334 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:44:32,535 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:44:32,553 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:44:32,621 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:44:32,714 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:44:32,990 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:44:33,130 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:44:33,208 - INFO - Success: https://www.wired.com/
+2026-04-14 16:44:33,294 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:44:33,298 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:44:33,706 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:44:34,034 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:44:34,087 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:44:34,097 - INFO - Success: https://www.economist.com/
+2026-04-14 16:44:34,239 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:44:34,317 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:44:34,373 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:44:34,552 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:44:34,553 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:44:34,608 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:44:34,633 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:44:34,765 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:44:34,768 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:44:34,837 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:44:35,131 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:44:35,347 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:44:35,469 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:44:35,778 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:44:35,989 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:44:36,931 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:44:39,134 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:44:39,494 - INFO - Success: https://www.space.com/news
+2026-04-14 16:44:39,507 - INFO - Crawled: 39
+2026-04-14 16:44:39,823 - INFO - After dedup: 39
+2026-04-14 16:49:12,495 - INFO - Pipeline started
+2026-04-14 16:49:12,625 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:49:12,695 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:49:12,946 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:49:12,966 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:49:13,041 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:49:13,123 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:49:13,281 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:49:13,484 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:49:13,866 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:49:14,000 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:49:14,129 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:49:14,256 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:49:14,527 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:49:14,768 - INFO - Success: https://www.wired.com/
+2026-04-14 16:49:15,079 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:49:15,176 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:49:15,453 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:49:16,373 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:49:16,388 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:49:16,438 - INFO - Success: https://www.economist.com/
+2026-04-14 16:49:16,651 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:49:16,675 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:49:16,767 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:49:16,821 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:49:16,888 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:49:17,016 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:49:17,032 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:49:17,140 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:49:17,671 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:49:18,084 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:49:18,232 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:49:18,257 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:49:18,332 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:49:19,004 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:49:19,440 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:49:19,533 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:49:22,805 - INFO - Success: https://www.space.com/news
+2026-04-14 16:49:23,646 - WARNING - Retry 1 for https://www.cbsnews.com/world/ | Error: 
+2026-04-14 16:49:24,095 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:49:34,646 - WARNING - Retry 2 for https://www.cbsnews.com/world/ | Error: 
+2026-04-14 16:49:45,646 - WARNING - Retry 3 for https://www.cbsnews.com/world/ | Error: 
+2026-04-14 16:49:45,647 - ERROR - Failed after retries: https://www.cbsnews.com/world/
+2026-04-14 16:49:45,648 - INFO - Crawled: 38
+2026-04-14 16:49:45,956 - INFO - After dedup: 38
+2026-04-14 16:49:55,717 - INFO - Pipeline completed
+2026-04-14 16:52:59,479 - INFO - Pipeline started
+2026-04-14 16:52:59,647 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:52:59,649 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:52:59,723 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:52:59,939 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:52:59,940 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:53:00,170 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:53:00,192 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:53:00,337 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:53:00,738 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:53:00,994 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:53:01,290 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:53:01,583 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:53:01,599 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:53:01,791 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:53:01,838 - INFO - Success: https://www.wired.com/
+2026-04-14 16:53:01,929 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:53:02,308 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:53:02,323 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:53:02,750 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:53:02,788 - INFO - Success: https://www.economist.com/
+2026-04-14 16:53:02,807 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:53:02,906 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:53:03,216 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:53:03,604 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:53:03,624 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:53:03,674 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:53:03,687 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:53:03,723 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:53:03,802 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:53:03,963 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:53:04,069 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:53:04,233 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:53:04,303 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:53:04,429 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:53:04,771 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:53:05,175 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:53:06,621 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:53:09,769 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:53:14,609 - WARNING - Retry 1 for https://www.space.com/news | Error: 
+2026-04-14 16:53:24,206 - INFO - Success: https://www.space.com/news
+2026-04-14 16:53:24,217 - INFO - Crawled: 39
+2026-04-14 16:53:24,770 - INFO - After dedup: 39
+2026-04-14 16:53:31,769 - INFO - Pipeline completed
+2026-04-14 16:56:23,004 - INFO - Pipeline started
+2026-04-14 16:56:23,183 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:56:23,247 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:56:23,500 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:56:23,576 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:56:23,658 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:56:23,900 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:56:24,132 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:56:24,420 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:56:24,462 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:56:24,523 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:56:24,641 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:56:24,669 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:56:25,000 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:56:25,054 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:56:25,269 - INFO - Success: https://www.wired.com/
+2026-04-14 16:56:25,273 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:56:25,330 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:56:25,639 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:56:25,870 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:56:25,995 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:56:26,026 - INFO - Success: https://www.economist.com/
+2026-04-14 16:56:26,230 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:56:26,280 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:56:26,320 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:56:26,348 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:56:26,401 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:56:26,521 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:56:26,559 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:56:26,705 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:56:26,709 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:56:26,809 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:56:26,903 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:56:27,050 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:56:27,218 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:56:27,408 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:56:27,828 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:56:27,989 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:56:28,174 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:56:31,801 - INFO - Success: https://www.space.com/news
+2026-04-14 16:56:31,813 - INFO - Crawled: 39
+2026-04-14 16:56:32,315 - INFO - After dedup: 39
+2026-04-14 16:58:35,696 - INFO - Pipeline started
+2026-04-14 16:58:35,874 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:58:36,018 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:58:36,022 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:58:36,213 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:58:36,216 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:58:36,273 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:58:36,319 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:58:36,416 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:58:36,682 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:58:36,736 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:58:36,950 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:58:37,062 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:58:37,117 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:58:37,263 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:58:37,383 - INFO - Success: https://www.wired.com/
+2026-04-14 16:58:37,449 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:58:37,632 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:58:37,722 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:58:37,806 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:58:37,847 - INFO - Success: https://www.economist.com/
+2026-04-14 16:58:37,999 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:58:38,162 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:58:38,185 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:58:38,246 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:58:38,267 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:58:38,308 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:58:38,339 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:58:38,345 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:58:38,371 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:58:38,701 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:58:38,751 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:58:38,795 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:58:39,067 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:58:39,163 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:58:39,391 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:58:39,580 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:58:40,351 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:58:44,450 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:58:49,125 - INFO - Success: https://www.space.com/news
+2026-04-14 16:58:49,138 - INFO - Crawled: 39
+2026-04-14 16:58:49,682 - INFO - After dedup: 39
+2026-04-14 16:59:46,759 - INFO - Pipeline started
+2026-04-14 16:59:46,894 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 16:59:46,902 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 16:59:46,932 - INFO - Success: https://www.cnn.com/world
+2026-04-14 16:59:46,981 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 16:59:47,196 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 16:59:47,507 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 16:59:47,581 - INFO - Success: https://www.bbc.com/news
+2026-04-14 16:59:47,871 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 16:59:47,998 - INFO - Success: https://www.france24.com/en/
+2026-04-14 16:59:48,098 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 16:59:48,239 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 16:59:48,373 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 16:59:48,386 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 16:59:48,572 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 16:59:48,581 - INFO - Success: https://www.wired.com/
+2026-04-14 16:59:48,686 - INFO - Success: https://www.theverge.com/
+2026-04-14 16:59:48,707 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 16:59:49,283 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 16:59:49,493 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 16:59:49,532 - INFO - Success: https://www.economist.com/
+2026-04-14 16:59:49,686 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 16:59:49,826 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 16:59:49,942 - INFO - Success: https://www.forbes.com/
+2026-04-14 16:59:49,946 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 16:59:49,986 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 16:59:49,994 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 16:59:50,043 - INFO - Success: https://www.vox.com/world
+2026-04-14 16:59:50,049 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 16:59:50,148 - INFO - Success: https://www.engadget.com/
+2026-04-14 16:59:50,180 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 16:59:50,335 - INFO - Success: https://www.nature.com/news
+2026-04-14 16:59:50,386 - INFO - Success: https://www.livescience.com/news
+2026-04-14 16:59:50,484 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 16:59:50,642 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 16:59:50,844 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 16:59:51,288 - INFO - Success: https://www.time.com/section/world
+2026-04-14 16:59:51,610 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 16:59:51,920 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 16:59:51,925 - INFO - Success: https://www.space.com/news
+2026-04-14 16:59:51,937 - INFO - Crawled: 39
+2026-04-14 16:59:52,462 - INFO - After dedup: 39
+2026-04-14 17:38:17,992 - INFO - Pipeline started
+2026-04-14 17:38:18,175 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 17:38:18,252 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 17:38:18,603 - INFO - Success: https://www.cnn.com/world
+2026-04-14 17:38:18,605 - INFO - Success: https://www.bbc.com/news
+2026-04-14 17:38:18,767 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 17:38:18,836 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 17:38:19,042 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 17:38:19,452 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 17:38:19,594 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 17:38:19,897 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 17:38:20,097 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 17:38:20,297 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 17:38:20,666 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 17:38:20,678 - INFO - Success: https://www.france24.com/en/
+2026-04-14 17:38:20,926 - INFO - Success: https://www.wired.com/
+2026-04-14 17:38:21,044 - INFO - Success: https://www.theverge.com/
+2026-04-14 17:38:21,419 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 17:38:21,551 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 17:38:21,663 - INFO - Success: https://www.engadget.com/
+2026-04-14 17:38:21,719 - INFO - Success: https://www.economist.com/
+2026-04-14 17:38:21,929 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 17:38:22,041 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 17:38:22,192 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 17:38:22,328 - INFO - Success: https://www.forbes.com/
+2026-04-14 17:38:22,475 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 17:38:22,713 - INFO - Success: https://www.nature.com/news
+2026-04-14 17:38:22,755 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 17:38:22,758 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 17:38:22,933 - INFO - Success: https://www.vox.com/world
+2026-04-14 17:38:23,628 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 17:38:23,794 - INFO - Success: https://www.livescience.com/news
+2026-04-14 17:38:24,015 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 17:38:24,025 - INFO - Success: https://www.time.com/section/world
+2026-04-14 17:38:24,039 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 17:38:24,374 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 17:38:24,808 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 17:38:24,934 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 17:38:25,890 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 17:38:32,535 - INFO - Success: https://www.space.com/news
+2026-04-14 17:38:32,547 - INFO - Crawled: 39
+2026-04-14 17:38:33,093 - INFO - After dedup: 39
+2026-04-14 17:46:23,128 - INFO - Pipeline started
+2026-04-14 17:46:23,422 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 17:46:23,592 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 17:46:23,931 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 17:46:23,964 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 17:46:24,075 - INFO - Success: https://www.bbc.com/news
+2026-04-14 17:46:24,253 - INFO - Success: https://www.cnn.com/world
+2026-04-14 17:46:24,670 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 17:46:24,685 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 17:46:24,733 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 17:46:25,165 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 17:46:25,313 - INFO - Success: https://www.france24.com/en/
+2026-04-14 17:46:25,503 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 17:46:25,633 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 17:46:25,891 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 17:46:25,920 - INFO - Success: https://www.wired.com/
+2026-04-14 17:46:26,033 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 17:46:26,174 - INFO - Success: https://www.theverge.com/
+2026-04-14 17:46:26,517 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 17:46:26,950 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 17:46:27,222 - INFO - Success: https://www.economist.com/
+2026-04-14 17:46:27,708 - INFO - Success: https://www.forbes.com/
+2026-04-14 17:46:27,709 - INFO - Success: https://www.nature.com/news
+2026-04-14 17:46:27,713 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 17:46:27,754 - INFO - Success: https://www.engadget.com/
+2026-04-14 17:46:27,857 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 17:46:27,893 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 17:46:27,973 - INFO - Success: https://www.vox.com/world
+2026-04-14 17:46:28,099 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 17:46:28,123 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 17:46:28,298 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 17:46:28,389 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 17:46:28,642 - INFO - Success: https://www.livescience.com/news
+2026-04-14 17:46:28,770 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 17:46:28,954 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 17:46:28,964 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 17:46:29,146 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 17:46:29,163 - INFO - Success: https://www.time.com/section/world
+2026-04-14 17:46:29,357 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 17:46:33,803 - INFO - Success: https://www.space.com/news
+2026-04-14 17:46:33,850 - INFO - Crawled: 39
+2026-04-14 17:46:35,487 - INFO - After dedup: 39
+2026-04-14 17:52:17,772 - INFO - Pipeline started
+2026-04-14 17:52:18,505 - INFO - Success: https://www.reuters.com/news/world
+2026-04-14 17:52:18,808 - INFO - Success: https://www.aljazeera.com/news/
+2026-04-14 17:52:18,922 - INFO - Success: https://www.bbc.com/news
+2026-04-14 17:52:19,608 - INFO - Success: https://www.theguardian.com/world
+2026-04-14 17:52:19,909 - INFO - Success: https://www.cnn.com/world
+2026-04-14 17:52:20,041 - INFO - Success: https://www.npr.org/sections/news/
+2026-04-14 17:52:20,644 - INFO - Success: https://www.foxnews.com/world
+2026-04-14 17:52:21,220 - INFO - Success: https://www.nbcnews.com/world
+2026-04-14 17:52:21,382 - INFO - Success: https://www.nytimes.com/section/world
+2026-04-14 17:52:21,402 - INFO - Success: https://www.abc.net.au/news/world/
+2026-04-14 17:52:21,929 - INFO - Success: https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 17:52:22,168 - INFO - Success: https://www.france24.com/en/
+2026-04-14 17:52:22,183 - INFO - Success: https://www.cbsnews.com/world/
+2026-04-14 17:52:22,781 - INFO - Success: https://www.technologyreview.com/
+2026-04-14 17:52:23,004 - INFO - Success: https://www.wired.com/
+2026-04-14 17:52:23,830 - INFO - Success: https://www.sciencenews.org/
+2026-04-14 17:52:24,007 - INFO - Success: https://www.theverge.com/
+2026-04-14 17:52:24,010 - INFO - Success: https://www.engadget.com/
+2026-04-14 17:52:24,521 - INFO - Success: https://www.bloomberg.com/
+2026-04-14 17:52:24,768 - INFO - Success: https://www.nationalgeographic.com/latest-stories
+2026-04-14 17:52:24,782 - INFO - Success: https://www.economist.com/
+2026-04-14 17:52:24,828 - INFO - Success: https://www.nature.com/news
+2026-04-14 17:52:25,006 - INFO - Success: https://www.latimes.com/world-nation
+2026-04-14 17:52:25,029 - INFO - Success: https://www.wsj.com/news/world
+2026-04-14 17:52:25,189 - INFO - Success: https://www.techcrunch.com/
+2026-04-14 17:52:25,340 - INFO - Success: https://www.huffpost.com/news/world-news
+2026-04-14 17:52:25,383 - INFO - Success: https://www.vox.com/world
+2026-04-14 17:52:25,570 - INFO - Success: https://www.politico.com/world-news
+2026-04-14 17:52:25,695 - INFO - Success: https://www.usatoday.com/news/world/
+2026-04-14 17:52:25,852 - INFO - Success: https://www.forbes.com/
+2026-04-14 17:52:25,873 - INFO - Success: https://www.smithsonianmag.com/
+2026-04-14 17:52:26,015 - INFO - Success: https://www.livescience.com/news
+2026-04-14 17:52:26,224 - INFO - Success: https://www.scientificamerican.com/
+2026-04-14 17:52:26,323 - INFO - Success: https://www.nasa.gov/news
+2026-04-14 17:52:26,624 - INFO - Success: https://www.brookings.edu/blog/
+2026-04-14 17:52:26,776 - INFO - Success: https://www.pewresearch.org/
+2026-04-14 17:52:26,846 - INFO - Success: https://www.time.com/section/world
+2026-04-14 17:52:28,697 - INFO - Success: https://www.space.com/news
+2026-04-14 17:52:31,620 - INFO - Success: https://www.cnet.com/news/
+2026-04-14 17:52:31,679 - INFO - Crawled: 39
+2026-04-14 17:52:33,730 - INFO - After dedup: 39
+2026-04-14 17:56:17,992 - INFO - Pipeline completed
+2026-04-14 18:12:15,301 - INFO - Pipeline completed
+2026-04-14 18:14:00,596 INFO 🚀 Starting pipeline...
+2026-04-14 18:14:00,752 INFO Scraped 0 articles from https://www.aljazeera.com/news/
+2026-04-14 18:14:00,839 INFO Scraped 0 articles from https://www.reuters.com/news/world
+2026-04-14 18:14:00,846 INFO Scraped 0 articles from https://www.economist.com/
+2026-04-14 18:14:00,914 INFO Scraped 15 articles from https://www.nationalgeographic.com/latest-stories
+2026-04-14 18:14:01,135 INFO Scraped 0 articles from https://www.france24.com/en/
+2026-04-14 18:14:01,211 INFO Scraped 0 articles from https://www.huffpost.com/news/world-news
+2026-04-14 18:14:01,390 INFO Scraped 0 articles from https://www.theverge.com/
+2026-04-14 18:14:01,412 INFO Scraped 0 articles from https://www.theguardian.com/world
+2026-04-14 18:14:01,589 INFO Scraped 0 articles from https://www.technologyreview.com/
+2026-04-14 18:14:01,705 INFO Scraped 0 articles from https://www.nbcnews.com/world
+2026-04-14 18:14:01,804 INFO Scraped 0 articles from https://www.wired.com/
+2026-04-14 18:14:01,841 INFO Scraped 0 articles from https://www.usatoday.com/news/world/
+2026-04-14 18:14:01,970 INFO Scraped 0 articles from https://www.vox.com/world
+2026-04-14 18:14:01,983 INFO Scraped 0 articles from https://www.latimes.com/world-nation
+2026-04-14 18:14:02,044 INFO Scraped 14 articles from https://www.nytimes.com/section/world
+2026-04-14 18:14:02,109 INFO Scraped 0 articles from https://www.wsj.com/news/world
+2026-04-14 18:14:02,216 INFO Scraped 58 articles from https://www.pewresearch.org/
+2026-04-14 18:14:02,334 INFO Scraped 0 articles from https://www.forbes.com/
+2026-04-14 18:14:02,423 INFO Scraped 29 articles from https://www.abc.net.au/news/world/
+2026-04-14 18:14:02,425 INFO Scraped 0 articles from https://www.politico.com/world-news
+2026-04-14 18:14:02,564 INFO Scraped 1 articles from https://www.nasa.gov/news
+2026-04-14 18:14:02,579 INFO Scraped 0 articles from https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 18:14:02,674 INFO Scraped 21 articles from https://www.livescience.com/news
+2026-04-14 18:14:02,734 INFO Scraped 0 articles from https://www.voanews.com/
+2026-04-14 18:14:02,738 INFO Scraped 0 articles from https://www.bloomberg.com/
+2026-04-14 18:14:02,864 INFO Scraped 37 articles from https://www.npr.org/sections/news/
+2026-04-14 18:14:02,866 INFO Scraped 0 articles from https://www.nationalreview.com/news/
+2026-04-14 18:14:02,943 INFO Scraped 0 articles from https://www.smithsonianmag.com/
+2026-04-14 18:14:03,003 INFO Scraped 35 articles from https://www.scientificamerican.com/
+2026-04-14 18:14:03,120 INFO Scraped 12 articles from https://www.sciencenews.org/
+2026-04-14 18:14:03,215 INFO Scraped 3 articles from https://www.brookings.edu/blog/
+2026-04-14 18:14:03,309 INFO Scraped 10 articles from https://www.foxnews.com/world
+2026-04-14 18:14:03,325 INFO Scraped 0 articles from https://www.japantimes.co.jp/news/world/
+2026-04-14 18:14:03,403 INFO Scraped 1 articles from https://www.bbc.com/news
+2026-04-14 18:14:03,436 INFO Scraped 1 articles from https://www.salon.com/news
+2026-04-14 18:14:03,704 INFO Scraped 84 articles from https://www.cbsnews.com/world/
+2026-04-14 18:14:03,749 INFO Scraped 0 articles from https://www.engadget.com/
+2026-04-14 18:14:03,750 INFO Scraped 0 articles from https://www.psychologytoday.com/us/blog
+2026-04-14 18:14:04,194 INFO Scraped 0 articles from https://www.slate.com/news-and-politics
+2026-04-14 18:14:04,490 INFO Scraped 0 articles from https://www.cnn.com/world
+2026-04-14 18:14:04,538 INFO Scraped 27 articles from https://www.time.com/section/world
+2026-04-14 18:14:04,548 INFO Scraped 0 articles from https://www.healthline.com/news
+2026-04-14 18:14:04,616 INFO Scraped 0 articles from https://www.medicalnewstoday.com/
+2026-04-14 18:14:04,928 INFO Scraped 0 articles from https://www.globalnews.ca/
+2026-04-14 18:14:05,141 INFO Scraped 0 articles from https://www.techcrunch.com/
+2026-04-14 18:14:05,142 INFO Scraped 0 articles from https://www.nature.com/scitable/blog/
+2026-04-14 18:14:05,356 INFO Scraped 0 articles from https://www.nature.com/news
+2026-04-14 18:14:09,479 INFO Scraped 11 articles from https://www.space.com/news
+2026-04-14 18:14:10,798 ERROR Error in https://www.cnet.com/news/: 
+2026-04-14 18:14:10,799 ERROR Error in https://www.cbc.ca/news/world: 
+2026-04-14 18:14:10,800 INFO Total articles scraped: 359
+2026-04-14 18:14:10,819 INFO 📰 Crawled Articles: 359
+2026-04-14 18:14:10,824 INFO 💾 Raw data saved → raw.json
+2026-04-14 18:14:10,824 WARNING Skipping item at index 3 due to missing title/content.
+2026-04-14 18:14:10,824 WARNING Skipping item at index 7 due to missing title/content.
+2026-04-14 18:14:10,824 WARNING Skipping item at index 11 due to missing title/content.
+2026-04-14 18:14:10,825 WARNING Skipping item at index 13 due to missing title/content.
+2026-04-14 18:14:10,825 WARNING Skipping item at index 15 due to missing title/content.
+2026-04-14 18:14:10,825 WARNING Skipping item at index 19 due to missing title/content.
+2026-04-14 18:14:10,825 WARNING Skipping item at index 21 due to missing title/content.
+2026-04-14 18:14:10,825 WARNING Skipping item at index 23 due to missing title/content.
+2026-04-14 18:14:10,825 WARNING Skipping item at index 25 due to missing title/content.
+2026-04-14 18:14:10,825 WARNING Skipping item at index 29 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 32 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 34 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 37 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 38 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 39 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 40 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 41 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 42 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 43 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 44 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 45 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 46 due to missing title/content.
+2026-04-14 18:14:10,826 WARNING Skipping item at index 47 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 48 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 49 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 50 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 51 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 52 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 53 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 54 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 55 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 56 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 57 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 58 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 59 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 60 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 61 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 62 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 63 due to missing title/content.
+2026-04-14 18:14:10,827 WARNING Skipping item at index 64 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 65 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 66 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 67 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 68 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 69 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 70 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 71 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 72 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 73 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 74 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 75 due to missing title/content.
+2026-04-14 18:14:10,828 WARNING Skipping item at index 76 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 77 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 78 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 79 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 80 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 81 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 82 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 83 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 84 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 85 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 86 due to missing title/content.
+2026-04-14 18:14:10,829 WARNING Skipping item at index 87 due to missing title/content.
+2026-04-14 18:14:10,830 WARNING Skipping item at index 88 due to missing title/content.
+2026-04-14 18:14:10,830 WARNING Skipping item at index 89 due to missing title/content.
+2026-04-14 18:14:10,830 WARNING Skipping item at index 90 due to missing title/content.
+2026-04-14 18:14:10,830 WARNING Skipping item at index 91 due to missing title/content.
+2026-04-14 18:14:10,831 WARNING Skipping item at index 92 due to missing title/content.
+2026-04-14 18:14:10,831 WARNING Skipping item at index 93 due to missing title/content.
+2026-04-14 18:14:10,832 WARNING Skipping item at index 94 due to missing title/content.
+2026-04-14 18:14:10,832 WARNING Skipping item at index 95 due to missing title/content.
+2026-04-14 18:14:10,832 WARNING Skipping item at index 96 due to missing title/content.
+2026-04-14 18:14:10,832 WARNING Skipping item at index 97 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 98 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 99 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 100 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 101 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 102 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 103 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 104 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 105 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 106 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 107 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 108 due to missing title/content.
+2026-04-14 18:14:10,833 WARNING Skipping item at index 109 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 110 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 111 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 112 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 113 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 114 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 115 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 116 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 117 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 118 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 119 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 120 due to missing title/content.
+2026-04-14 18:14:10,834 WARNING Skipping item at index 121 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 122 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 123 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 124 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 125 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 126 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 127 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 128 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 129 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 130 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 131 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 132 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 133 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 134 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 135 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 136 due to missing title/content.
+2026-04-14 18:14:10,835 WARNING Skipping item at index 137 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 138 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 139 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 140 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 141 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 142 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 143 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 144 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 145 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 146 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 147 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 148 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 149 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 150 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 151 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 152 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 153 due to missing title/content.
+2026-04-14 18:14:10,836 WARNING Skipping item at index 154 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 155 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 156 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 157 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 158 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 159 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 160 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 161 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 162 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 163 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 164 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 165 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 166 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 167 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 168 due to missing title/content.
+2026-04-14 18:14:10,837 WARNING Skipping item at index 169 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 170 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 171 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 172 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 173 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 174 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 175 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 176 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 177 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 178 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 179 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 180 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 181 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 182 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 183 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 184 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 185 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 186 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 187 due to missing title/content.
+2026-04-14 18:14:10,838 WARNING Skipping item at index 188 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 189 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 190 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 191 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 192 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 193 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 194 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 195 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 196 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 197 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 198 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 199 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 200 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 201 due to missing title/content.
+2026-04-14 18:14:10,839 WARNING Skipping item at index 214 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 215 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 216 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 217 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 218 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 219 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 220 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 221 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 222 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 223 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 224 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 225 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 226 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 227 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 228 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 246 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 258 due to missing title/content.
+2026-04-14 18:14:10,840 WARNING Skipping item at index 259 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 260 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 261 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 262 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 263 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 265 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 266 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 267 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 268 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 269 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 270 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 271 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 272 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 273 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 274 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 275 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 276 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 277 due to missing title/content.
+2026-04-14 18:14:10,841 WARNING Skipping item at index 278 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 279 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 280 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 281 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 282 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 283 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 284 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 286 due to missing title/content.
+2026-04-14 18:14:10,847 WARNING Skipping item at index 287 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 288 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 289 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 290 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 291 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 292 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 293 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 294 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 295 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 296 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 297 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 298 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 299 due to missing title/content.
+2026-04-14 18:14:10,848 WARNING Skipping item at index 300 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 301 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 302 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 303 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 304 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 310 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 311 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 312 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 313 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 314 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 315 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 316 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 317 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 318 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 324 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 333 due to missing title/content.
+2026-04-14 18:14:10,849 WARNING Skipping item at index 334 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 335 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 336 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 337 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 338 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 339 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 340 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 341 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 342 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 343 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 344 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 345 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 346 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 347 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 348 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 349 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 350 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 351 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 352 due to missing title/content.
+2026-04-14 18:14:10,850 WARNING Skipping item at index 353 due to missing title/content.
+2026-04-14 18:14:10,851 WARNING Skipping item at index 354 due to missing title/content.
+2026-04-14 18:14:10,851 WARNING Skipping item at index 355 due to missing title/content.
+2026-04-14 18:14:10,851 WARNING Skipping item at index 356 due to missing title/content.
+2026-04-14 18:14:10,851 WARNING Skipping item at index 357 due to missing title/content.
+2026-04-14 18:14:10,851 INFO Cleaned 86 items out of 359.
+2026-04-14 18:14:10,851 INFO 🧹 After Cleaning: 86
+2026-04-14 18:14:10,851 INFO Duplicate found at index 28, skipping.
+2026-04-14 18:14:10,851 INFO Duplicate found at index 29, skipping.
+2026-04-14 18:14:10,852 INFO Duplicate found at index 30, skipping.
+2026-04-14 18:14:10,852 INFO Duplicate found at index 33, skipping.
+2026-04-14 18:14:10,852 INFO Duplicate found at index 34, skipping.
+2026-04-14 18:14:10,852 INFO Duplicate found at index 50, skipping.
+2026-04-14 18:14:10,852 INFO Duplicate found at index 51, skipping.
+2026-04-14 18:14:10,852 INFO Removed duplicates. 79 unique items out of 86.
+2026-04-14 18:14:10,853 INFO 🔁 After Deduplication: 79
+2026-04-14 18:14:10,853 INFO Processing 79 texts with spaCy NER/Dependency parser...
+2026-04-14 18:14:11,688 INFO Finished processing. Extracted 54 relations.
+2026-04-14 18:14:11,689 INFO 💾 Final data saved → final.json
+2026-04-14 18:14:11,689 INFO 🎯 Pipeline completed successfully!
+2026-04-14 18:14:42,366 INFO 🚀 Starting pipeline...
+2026-04-14 18:14:42,653 INFO Scraped 0 articles from https://www.latimes.com/world-nation
+2026-04-14 18:14:42,694 INFO Scraped 0 articles from https://www.reuters.com/news/world
+2026-04-14 18:14:42,728 INFO Scraped 0 articles from https://www.wsj.com/news/world
+2026-04-14 18:14:42,730 INFO Scraped 0 articles from https://www.theguardian.com/world
+2026-04-14 18:14:42,776 INFO Scraped 0 articles from https://www.huffpost.com/news/world-news
+2026-04-14 18:14:42,823 INFO Scraped 0 articles from https://www.usatoday.com/news/world/
+2026-04-14 18:14:42,932 INFO Scraped 0 articles from https://www.theverge.com/
+2026-04-14 18:14:42,934 INFO Scraped 0 articles from https://www.economist.com/
+2026-04-14 18:14:42,958 INFO Scraped 15 articles from https://www.nationalgeographic.com/latest-stories
+2026-04-14 18:14:42,961 INFO Scraped 0 articles from https://www.politico.com/world-news
+2026-04-14 18:14:42,964 INFO Scraped 0 articles from https://www.aljazeera.com/news/
+2026-04-14 18:14:43,094 INFO Scraped 0 articles from https://www.france24.com/en/
+2026-04-14 18:14:43,221 INFO Scraped 0 articles from https://www.technologyreview.com/
+2026-04-14 18:14:43,275 INFO Scraped 0 articles from https://www.nbcnews.com/world
+2026-04-14 18:14:43,341 INFO Scraped 58 articles from https://www.pewresearch.org/
+2026-04-14 18:14:43,420 INFO Scraped 37 articles from https://www.npr.org/sections/news/
+2026-04-14 18:14:43,489 INFO Scraped 0 articles from https://www.vox.com/world
+2026-04-14 18:14:43,550 INFO Scraped 0 articles from https://www.wired.com/
+2026-04-14 18:14:43,559 INFO Scraped 0 articles from https://www.bloomberg.com/
+2026-04-14 18:14:43,579 INFO Scraped 1 articles from https://www.salon.com/news
+2026-04-14 18:14:43,581 INFO Scraped 0 articles from https://www.nationalreview.com/news/
+2026-04-14 18:14:43,624 INFO Scraped 0 articles from https://www.smithsonianmag.com/
+2026-04-14 18:14:43,654 INFO Scraped 35 articles from https://www.scientificamerican.com/
+2026-04-14 18:14:43,738 INFO Scraped 0 articles from https://www.forbes.com/
+2026-04-14 18:14:43,787 INFO Scraped 14 articles from https://www.nytimes.com/section/world
+2026-04-14 18:14:43,817 INFO Scraped 0 articles from https://www.engadget.com/
+2026-04-14 18:14:43,829 INFO Scraped 0 articles from https://www.dw.com/en/top-stories/world/s-1429
+2026-04-14 18:14:43,876 INFO Scraped 0 articles from https://www.voanews.com/
+2026-04-14 18:14:43,962 INFO Scraped 1 articles from https://www.nasa.gov/news
+2026-04-14 18:14:44,026 INFO Scraped 29 articles from https://www.abc.net.au/news/world/
+2026-04-14 18:14:44,081 INFO Scraped 0 articles from https://www.medicalnewstoday.com/
+2026-04-14 18:14:44,132 INFO Scraped 1 articles from https://www.bbc.com/news
+2026-04-14 18:14:44,211 INFO Scraped 12 articles from https://www.sciencenews.org/
+2026-04-14 18:14:44,266 INFO Scraped 21 articles from https://www.livescience.com/news
+2026-04-14 18:14:44,313 INFO Scraped 3 articles from https://www.brookings.edu/blog/
+2026-04-14 18:14:44,327 INFO Scraped 0 articles from https://www.healthline.com/news
+2026-04-14 18:14:44,335 INFO Scraped 0 articles from https://www.japantimes.co.jp/news/world/
+2026-04-14 18:14:44,541 INFO Scraped 0 articles from https://www.techcrunch.com/
+2026-04-14 18:14:44,663 INFO Scraped 10 articles from https://www.foxnews.com/world
+2026-04-14 18:14:45,047 INFO Scraped 0 articles from https://www.cnn.com/world
+2026-04-14 18:14:45,086 INFO Scraped 0 articles from https://www.slate.com/news-and-politics
+2026-04-14 18:14:45,087 INFO Scraped 0 articles from https://www.psychologytoday.com/us/blog
+2026-04-14 18:14:45,390 INFO Scraped 27 articles from https://www.time.com/section/world
+2026-04-14 18:14:45,770 INFO Scraped 0 articles from https://www.globalnews.ca/
+2026-04-14 18:14:45,773 INFO Scraped 0 articles from https://www.nature.com/scitable/blog/
+2026-04-14 18:14:46,078 INFO Scraped 0 articles from https://www.nature.com/news
+2026-04-14 18:14:46,784 INFO Scraped 84 articles from https://www.cbsnews.com/world/
+2026-04-14 18:14:47,801 INFO Scraped 11 articles from https://www.space.com/news
+2026-04-14 18:14:52,796 ERROR Error in https://www.cnet.com/news/: 
+2026-04-14 18:14:52,796 ERROR Error in https://www.cbc.ca/news/world: 
+2026-04-14 18:14:52,797 INFO Total articles scraped: 359
+2026-04-14 18:14:52,808 INFO 📰 Crawled Articles: 359
+2026-04-14 18:14:52,811 INFO 💾 Raw data saved → raw.json
+2026-04-14 18:14:52,811 WARNING Skipping item at index 3 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 7 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 11 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 13 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 15 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 19 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 21 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 23 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 25 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 29 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 32 due to missing title/content.
+2026-04-14 18:14:52,811 WARNING Skipping item at index 34 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 37 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 38 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 39 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 40 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 41 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 42 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 43 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 44 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 45 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 46 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 47 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 48 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 49 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 50 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 51 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 52 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 53 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 54 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 55 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 56 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 57 due to missing title/content.
+2026-04-14 18:14:52,812 WARNING Skipping item at index 58 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 59 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 60 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 61 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 62 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 63 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 64 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 65 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 66 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 67 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 68 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 69 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 70 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 71 due to missing title/content.
+2026-04-14 18:14:52,813 WARNING Skipping item at index 72 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 73 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 74 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 75 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 76 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 77 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 78 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 79 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 80 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 81 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 82 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 83 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 84 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 85 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 86 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 87 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 88 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 89 due to missing title/content.
+2026-04-14 18:14:52,814 WARNING Skipping item at index 90 due to missing title/content.
+2026-04-14 18:14:52,815 WARNING Skipping item at index 91 due to missing title/content.
+2026-04-14 18:14:52,815 WARNING Skipping item at index 92 due to missing title/content.
+2026-04-14 18:14:52,815 WARNING Skipping item at index 93 due to missing title/content.
+2026-04-14 18:14:52,815 WARNING Skipping item at index 94 due to missing title/content.
+2026-04-14 18:14:52,815 WARNING Skipping item at index 95 due to missing title/content.
+2026-04-14 18:14:52,815 WARNING Skipping item at index 96 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 97 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 98 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 99 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 100 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 101 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 102 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 103 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 104 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 105 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 106 due to missing title/content.
+2026-04-14 18:14:52,816 WARNING Skipping item at index 107 due to missing title/content.
+2026-04-14 18:14:52,817 WARNING Skipping item at index 108 due to missing title/content.
+2026-04-14 18:14:52,817 WARNING Skipping item at index 109 due to missing title/content.
+2026-04-14 18:14:52,817 WARNING Skipping item at index 110 due to missing title/content.
+2026-04-14 18:14:52,817 WARNING Skipping item at index 111 due to missing title/content.
+2026-04-14 18:14:52,817 WARNING Skipping item at index 112 due to missing title/content.
+2026-04-14 18:14:52,817 WARNING Skipping item at index 113 due to missing title/content.
+2026-04-14 18:14:52,817 WARNING Skipping item at index 114 due to missing title/content.
+2026-04-14 18:14:52,818 WARNING Skipping item at index 115 due to missing title/content.
+2026-04-14 18:14:52,818 WARNING Skipping item at index 116 due to missing title/content.
+2026-04-14 18:14:52,818 WARNING Skipping item at index 117 due to missing title/content.
+2026-04-14 18:14:52,818 WARNING Skipping item at index 118 due to missing title/content.
+2026-04-14 18:14:52,818 WARNING Skipping item at index 119 due to missing title/content.
+2026-04-14 18:14:52,818 WARNING Skipping item at index 120 due to missing title/content.
+2026-04-14 18:14:52,819 WARNING Skipping item at index 121 due to missing title/content.
+2026-04-14 18:14:52,819 WARNING Skipping item at index 122 due to missing title/content.
+2026-04-14 18:14:52,819 WARNING Skipping item at index 123 due to missing title/content.
+2026-04-14 18:14:52,819 WARNING Skipping item at index 124 due to missing title/content.
+2026-04-14 18:14:52,819 WARNING Skipping item at index 125 due to missing title/content.
+2026-04-14 18:14:52,819 WARNING Skipping item at index 126 due to missing title/content.
+2026-04-14 18:14:52,819 WARNING Skipping item at index 127 due to missing title/content.
+2026-04-14 18:14:52,820 WARNING Skipping item at index 128 due to missing title/content.
+2026-04-14 18:14:52,820 WARNING Skipping item at index 129 due to missing title/content.
+2026-04-14 18:14:52,820 WARNING Skipping item at index 130 due to missing title/content.
+2026-04-14 18:14:52,820 WARNING Skipping item at index 131 due to missing title/content.
+2026-04-14 18:14:52,820 WARNING Skipping item at index 132 due to missing title/content.
+2026-04-14 18:14:52,820 WARNING Skipping item at index 133 due to missing title/content.
+2026-04-14 18:14:52,820 WARNING Skipping item at index 134 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 135 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 136 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 137 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 138 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 139 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 140 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 141 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 142 due to missing title/content.
+2026-04-14 18:14:52,821 WARNING Skipping item at index 143 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 144 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 145 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 146 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 147 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 148 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 149 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 150 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 151 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 152 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 153 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 154 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 155 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 156 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 157 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 158 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 159 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 160 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 161 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 162 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 163 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 164 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 165 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 166 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 167 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 168 due to missing title/content.
+2026-04-14 18:14:52,822 WARNING Skipping item at index 169 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 170 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 171 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 172 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 173 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 174 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 175 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 176 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 177 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 178 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 179 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 180 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 181 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 182 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 183 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 184 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 185 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 186 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 187 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 188 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 189 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 190 due to missing title/content.
+2026-04-14 18:14:52,823 WARNING Skipping item at index 191 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 192 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 193 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 194 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 195 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 196 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 197 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 198 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 199 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 200 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 201 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 214 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 215 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 216 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 217 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 218 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 219 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 220 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 221 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 222 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 223 due to missing title/content.
+2026-04-14 18:14:52,824 WARNING Skipping item at index 224 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 225 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 226 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 227 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 228 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 246 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 258 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 259 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 260 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 261 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 262 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 263 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 265 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 266 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 267 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 268 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 269 due to missing title/content.
+2026-04-14 18:14:52,825 WARNING Skipping item at index 270 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 271 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 272 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 273 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 274 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 275 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 276 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 277 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 278 due to missing title/content.
+2026-04-14 18:14:52,826 WARNING Skipping item at index 279 due to missing title/content.
+2026-04-14 18:14:52,828 WARNING Skipping item at index 280 due to missing title/content.
+2026-04-14 18:14:52,828 WARNING Skipping item at index 281 due to missing title/content.
+2026-04-14 18:14:52,828 WARNING Skipping item at index 282 due to missing title/content.
+2026-04-14 18:14:52,828 WARNING Skipping item at index 283 due to missing title/content.
+2026-04-14 18:14:52,828 WARNING Skipping item at index 284 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 286 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 287 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 288 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 289 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 290 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 291 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 292 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 293 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 294 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 295 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 296 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 297 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 298 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 299 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 300 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 301 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 302 due to missing title/content.
+2026-04-14 18:14:52,829 WARNING Skipping item at index 303 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 304 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 310 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 311 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 312 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 313 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 314 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 315 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 316 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 317 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 318 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 324 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 333 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 334 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 335 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 336 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 337 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 338 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 339 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 340 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 341 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 342 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 343 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 344 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 345 due to missing title/content.
+2026-04-14 18:14:52,830 WARNING Skipping item at index 346 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 347 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 348 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 349 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 350 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 351 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 352 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 353 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 354 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 355 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 356 due to missing title/content.
+2026-04-14 18:14:52,831 WARNING Skipping item at index 357 due to missing title/content.
+2026-04-14 18:14:52,831 INFO Cleaned 86 items out of 359.
+2026-04-14 18:14:52,831 INFO 🧹 After Cleaning: 86
+2026-04-14 18:14:52,831 INFO Duplicate found at index 28, skipping.
+2026-04-14 18:14:52,831 INFO Duplicate found at index 29, skipping.
+2026-04-14 18:14:52,831 INFO Duplicate found at index 30, skipping.
+2026-04-14 18:14:52,831 INFO Duplicate found at index 33, skipping.
+2026-04-14 18:14:52,831 INFO Duplicate found at index 34, skipping.
+2026-04-14 18:14:52,831 INFO Duplicate found at index 50, skipping.
+2026-04-14 18:14:52,832 INFO Duplicate found at index 51, skipping.
+2026-04-14 18:14:52,832 INFO Removed duplicates. 79 unique items out of 86.
+2026-04-14 18:14:52,832 INFO 🔁 After Deduplication: 79
+2026-04-14 18:14:52,832 INFO Processing 79 texts with spaCy NER/Dependency parser...
+2026-04-14 18:14:53,765 INFO Finished processing. Extracted 54 relations.
+2026-04-14 18:14:53,766 INFO 💾 Final data saved → final.json
+2026-04-14 18:14:53,766 INFO 🎯 Pipeline completed successfully!

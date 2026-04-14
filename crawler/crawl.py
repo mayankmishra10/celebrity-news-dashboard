@@ -3,7 +3,14 @@ import asyncio
 from bs4 import BeautifulSoup
 import ssl
 import certifi
+import logging
 
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(message)s',
+    handlers=[logging.FileHandler('logs/app.log'), logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
 
 async def scrape_site(session, url):
     try:
@@ -21,10 +28,12 @@ async def scrape_site(session, url):
                     "content": " ".join([p.text.strip() for p in content])
                 })
 
+            logger.info(f"Scraped {len(articles)} articles from {url}")
+
             return articles
 
     except Exception as e:
-        print(f"Error in {url}: {e}")
+        logger.error(f"Error in {url}: {e}")
         return []
 
 
@@ -37,4 +46,6 @@ async def run_crawler(urls):
     async with aiohttp.ClientSession(connector=connector) as session:
         tasks = [scrape_site(session, url) for url in urls]
         results = await asyncio.gather(*tasks)
-        return [item for sublist in results for item in sublist]
+        all_articles = [item for sublist in results for item in sublist]
+        logger.info(f"Total articles scraped: {len(all_articles)}")
+        return all_articles
